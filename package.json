@@ -1,0 +1,16 @@
+{
+  "name": "fb_messenger_irc",
+  "description": "",
+  "version": "0.0.1",
+  "dependencies": {
+    "grunt": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-watch": "latest"
+},
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}

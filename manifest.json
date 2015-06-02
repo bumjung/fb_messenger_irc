@@ -1,5 +1,5 @@
 {
-  "name": "CHANGE THIS : Extension boilerplate",
+  "name": "fb-messenger-irc",
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "This extension was created with the awesome extensionizr.com",
@@ -19,18 +19,19 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.google.com/*"
+        "<all_urls>"
       ],
       "css": [
-        "src/inject/inject.css"
+        "src/inject/css/inject.css"
       ]
     },
     {
       "matches": [
-        "https://www.google.com/*"
+        "<all_urls>"
       ],
       "js": [
-        "src/inject/inject.js"
+        "js/jquery/jquery.min.js",
+        "src/inject/js/inject.js"
       ]
     }
   ]
