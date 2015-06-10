@@ -2,8 +2,8 @@
   "name": "fb-messenger-irc",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "This extension was created with the awesome extensionizr.com",
-  "homepage_url": "http://extensionizr.com",
+  "description": "This extension allows users to mimic Messenger to have an IRC feel",
+  "homepage_url": "https://github.com/CrypticDuo/fb_messenger_irc",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -19,7 +19,7 @@
   "content_scripts": [
     {
       "matches": [
-        "<all_urls>"
+        "https://www.messenger.com/*"
       ],
       "css": [
         "src/inject/css/inject.css"
@@ -27,7 +27,7 @@
     },
     {
       "matches": [
-        "<all_urls>"
+        "https://www.messenger.com/*"
       ],
       "js": [
         "js/jquery/jquery.min.js",
